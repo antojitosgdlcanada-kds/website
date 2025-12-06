@@ -227,6 +227,16 @@ section p { max-width:920px; margin:0 auto; font-size:1.05rem; line-height:1.6; 
   height:380px;
   border:0;
 }
+.story-video {
+  width: 90%;
+  max-width: 600px; /* tamaño perfecto para web */
+  height: auto;
+  display: block;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.35);
+}
+
 
 /* FOOTER */
 footer {
@@ -291,16 +301,16 @@ footer {
 <div class="cenefa-wrap"><div class="cenefa"></div></div>
 
 <!-- STORY -->
-<section id="story" style="background-image:url('https://raw.githubusercontent.com/antojitosgdlcanada-kds/media/main/bg2.png');padding:100px 1%;">
+<section id="story" style="background-image:url('https://raw.githubusercontent.com/antojitosgdlcanada-kds/media/main/bg2.png');padding:150px 1%;text-align:center;">
   <h2>Our Story</h2>
   <p>Born from the flavors of Jalisco and brought with cariño to Vernon, BC. Every plate is made con ganas because:
- <br><strong>Panza llena, corazón contento.</strong></p>
+  <br><strong>Panza llena, corazón contento.</strong></p>
 
-  <video id="storyVideo" class="story-video" muted playsinline preload="metadata">
-    <source src="https://raw.githubusercontent.com/antojitosgdlcanada-kds/media/main/customers.mp4" type="video/mp4" style="align:left; 
-    height: 1920px;
-    width: 1080px;
-">
+  <video id="storyVideo" class="story-video" muted playsinline autoplay loop preload="metadata">
+    <source src="https://raw.githubusercontent.com/antojitosgdlcanada-kds/media/main/customers.mp4" type="video/mp4">
+  </video>
+</section>
+
 
   </video>
 </section>
@@ -319,7 +329,7 @@ footer {
 <div class="cenefa-wrap"><div class="cenefa reverse"></div></div>
 
 <!-- REVIEWS -->
-<section id="reviews" style="background-image:url('https://raw.githubusercontent.com/antojitosgdlcanada-kds/media/main/bg2.png');">
+<section id="reviews" style="background-image:url('https://raw.githubusercontent.com/antojitosgdlcanada-kds/media/main/bg2.png');padding:200px 10%;">
   <h2>Google Reviews</h2>
 
   <div class="reviews-box">
@@ -331,7 +341,7 @@ footer {
 <div class="cenefa-wrap"><div class="cenefa"></div></div>
 
 <!-- ORDER NOW -->
-<section id="delivery" style="background-image:url('https://raw.githubusercontent.com/antojitosgdlcanada-kds/media/main/bg2.png');">
+<section id="delivery" style="background-image:url('https://raw.githubusercontent.com/antojitosgdlcanada-kds/media/main/bg2.png');padding:200px 10%;">
   <h2>Order Now</h2>
   <p>Delivery, pickup or quick grab-and-go — choose how you want to enjoy Antojitos Guadalajara.</p>
 
